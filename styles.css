@@ -1,0 +1,255 @@
+body {
+  font-family: 'Roboto Slab';
+  margin: 0;
+}
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 120px;
+}
+
+.top-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-group {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 70px;
+  margin-right: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logo-title {
+  font-family: 'Lato';
+  color: #5B0997;
+  margin-top: -.75rem;
+  font-weight: 700;
+  margin-top: -.60rem;
+  font-size: 2em;
+}
+
+.logo-subtitle {
+  color: #5B0997;
+  margin-top: -1rem;
+  font-size: 2em;
+}
+
+.logo-image {
+  margin: 0;
+  width: 70px;
+}
+
+.current-location {
+  font-family: 'Lato';
+  color: #5B0997;
+  font-size: 25px;
+  margin-right: 100px;
+
+}
+
+.top-bar-space {
+  height: 120px;
+}
+
+.main {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  height: 70vh;
+  display: flex;
+  vertical-align: middle;
+  text-align: middle;
+}
+
+#home {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 70vh;
+}
+
+.home-item {
+  font-family: 'Lato';
+  font-weight: bold;
+  color: black;
+  font-size: 55px;
+  height: 70vh;
+  color: #5B0997;
+  align-items: center;
+}
+
+.first-item {
+  padding-right: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.container {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100vw;
+  text-align: center;
+
+}
+
+.main-banner {
+  opacity: 70%;
+  display: flex;
+  text-align: center;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 25vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.yoga-section {
+  background-image: url("./images/yoga-class.jpg");
+}
+
+.meditation-section {
+  background-image: url("./images/meditation-2.jpg");
+}
+
+.about-section {
+  background-image: url("./images/hike.jpg");
+}
+
+.contact-section {
+  background-image: url("./images/contact-2.jpg")
+}
+
+.yoga-banner {
+  background-color: #FFB9B3;
+}
+
+.meditation-banner {
+  margin-left: 25vw;
+  background-color: #FFD5B8;
+}
+
+.about-banner {
+  margin-left: 50vw;
+  background-color: #FFF9AA;
+}
+
+.contact-banner {
+  margin-left: 75vw;
+  background-color: #ACECD5;
+}
+
+.main-section-item {
+  padding-top: 5px;
+}
+
+.main-icon {
+  width: 85px;
+}
+
+.main-title {
+  font-size: 25px;
+  font-family: 'Lato';
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.main-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-links-item {
+  padding-bottom: 20px;
+}
+
+.main-links-item-main {
+  padding: 10px;
+  font-size: 20px;
+  display: inline;
+  cursor: pointer;
+  text-decoration: none;
+  color: black
+}
+
+.main-links-item-main:hover {
+  text-decoration: underline;
+}
+
+.main-links-item-description {
+  font-size: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.nav div {
+  font-family: 'Lato';
+  font-size: 20px;
+  text-decoration: none;
+  color: #5B0997;
+  cursor: pointer;
+}
+
+.nav_item:hover {
+  text-decoration: underline;
+  color: black;
+
+}
+
+.nav_item.active {
+  margin-top: -12px;
+  color: #5B0997;
+  font-weight: bold;
+}
+
+/* ABOUT PAGES */
+
+.about-me {
+  display: flex;
+  height: 70vh;
+}
+
+.about-me-paragraph {
+  text-align: left;
+  font-size: 18px;
+}
+
+.about-me-paragraph-item {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.about-me-img {
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
