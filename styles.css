@@ -2,8 +2,10 @@ body {
   font-family: 'Roboto Slab';
   margin: 0;
 }
+
+/* TOP BAR */
+
 .top-bar {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -52,14 +54,11 @@ body {
 .current-location {
   font-family: 'Lato';
   color: #5B0997;
-  font-size: 25px;
+  font-size: 15px;
   margin-right: 100px;
-
 }
 
-.top-bar-space {
-  height: 120px;
-}
+/* MAIN SECTION */
 
 .main {
   height: 100%;
@@ -79,33 +78,22 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   height: 70vh;
-}
-
-.home-item {
   font-family: 'Lato';
   font-weight: bold;
-  color: black;
   font-size: 55px;
-  height: 70vh;
   color: #5B0997;
   align-items: center;
-}
-
-.first-item {
-  padding-right: 30px;
+  display: flex;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
-
 
 .container {
   height: 70vh;
   background-size: cover;
   background-position: center;
-  margin-left: 10px;
-  margin-right: 10px;
   width: 100vw;
   text-align: center;
 
@@ -119,9 +107,9 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 25vw;
-  padding-left: 10px;
-  padding-right: 10px;
 }
+
+/* MAIN SECTIONS */
 
 .yoga-section {
   background-image: url("./images/yoga-class.jpg");
@@ -132,11 +120,11 @@ body {
 }
 
 .about-section {
-  background-image: url("./images/hike.jpg");
+  background-image: url("./images/yoga-6.jpg");
 }
 
 .contact-section {
-  background-image: url("./images/contact-2.jpg")
+  background-image: url("./images/yoga-7.jpg")
 }
 
 .yoga-banner {
@@ -200,14 +188,14 @@ body {
   font-size: 15px;
 }
 
+/* NAV BAR */
+
 .nav {
   display: flex;
   align-items: center;
-  padding-right: 40px;
   text-align: center;
   justify-content: space-around;
   margin-top: 20px;
-
 }
 
 .nav div {
@@ -230,26 +218,44 @@ body {
   font-weight: bold;
 }
 
-/* ABOUT PAGES */
+/* SUB SECTIONS */
 
-.about-me {
-  display: flex;
+.image-title-banner {
   height: 70vh;
+  width: 100vw;
+  align-items: center;
+  display: inline-grid;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  opacity: 80%;
 }
 
-.about-me-paragraph {
-  text-align: left;
-  font-size: 18px;
-}
-
-.about-me-paragraph-item {
-  padding-top: 20px;
-  padding-left: 20px;
+.post-title {
+  color: black;
+  font-family: 'Lato';
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
 .about-me-img {
-  width: 50%;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-image: url("./images/yoga-9.jpg");
+}
+
+.about-classes-img {
+  background-image: url("./images/yoga-8.jpg");
+}
+
+.paragraph-banner {
+  padding-top: 80px;
+  width: 100vw;
+}
+
+.paragraph-banner-item {
+  padding-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
 }
